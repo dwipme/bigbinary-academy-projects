@@ -233,5 +233,91 @@
         </tr>
       </tbody>
     </table>
+
+    <h3>Virtual Fan Club Registration Form</h3>
+    <form>
+      <fieldset>
+        <legend>User Info</legend>
+
+        <label for="registration-date">Registration Date:</label>
+        <input type="date" id="registration-date" required />
+        <br />
+        <br />
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          placeholder="Enter your name here"
+          id="name"
+          name="name"
+          required
+        />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          placeholder="Email id"
+          id="email"
+          name="email"
+          required
+        />
+        <br />
+        <br />
+        <label for="mobile-number">Mobile Number:</label>
+        <input
+          type="tel"
+          placeholder="+1"
+          id="mobile-number"
+          name="mobile-number"
+          required
+        />
+        <br />
+        <br />
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" required />
+        <br />
+        <br />
+        <label for="fev-movie">Which movie did you like the most:</label>
+        <select id="fev-movie" required>
+          <option value="">-- Select --</option>
+          <option value="Spider-Man (2002)">Spider-Man (2002)</option>
+          <option value="Spider-Man 2 (2004)">Spider-Man 2 (2004)</option>
+          <option value="Spider-Man 3 (2007)">Spider-Man 3 (2007)</option>
+          <option value="The Amazing Spider-Man (2012)">
+            The Amazing Spider-Man (2012)
+          </option>
+          <option value="The Amazing Spider-Man 2 (2014)">
+            The Amazing Spider-Man 2 (2014)
+          </option>
+          <option value="Spider-Man: Homecoming (2017)">
+            Spider-Man: Homecoming (2017)
+          </option>
+          <option value="Spider-Man: Far From Home (2019)">
+            Spider-Man: Far From Home (2019)
+          </option>
+          <option value="Spider-Man: No Way Home (2021)">
+            Spider-Man: No Way Home (2021)
+          </option>
+        </select>
+        <br />
+        <br />
+        <label>Which Cinematic Universe you support ?</label>
+        <br />
+        <input type="radio" name="universe" id="marvel" />
+        <label for="marvel">Marvel 🕷️</label>
+        <br />
+        <input type="radio" name="universe" id="dc" />
+        <label for="dc">DC 🦇</label>
+        <br />
+        <br />
+        <label for="review">Review:</label>
+        <br />
+        <textarea id="review" cols="30" rows="5"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
   </body>
 </html>
